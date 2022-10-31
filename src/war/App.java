@@ -3,7 +3,9 @@ package war;
 public class App {
 
 	public static void main(String[] args) {
+		System.out.println("Welcome to the game of war");
 		
+		int numberOfCards = 52;
 		Player playerUno = new Player("Jackie", 0);
 			
 	//	playerUno.describePlayer();
